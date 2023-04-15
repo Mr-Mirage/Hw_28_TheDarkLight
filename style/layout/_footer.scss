@@ -1,0 +1,48 @@
+.foot{
+    display: flex;
+    margin-top: 100px;
+}
+
+.logo2{
+    display: grid;
+    .pages2{
+        margin-left: 40px;
+        margin-top: -117px;
+    }
+    .social-media2{
+        margin-top: -160px;        
+    }
+}
+
+.explore{
+   margin-left: 70px;       
+}
+
+.textes{
+    display: flex;
+    margin-top: 24px;
+}
+.dot{
+    // border: 1px solid $btnColor;
+    background-color: $btnColor;
+    width: 2px;
+    height: 2px;
+    border-radius: 100px;
+    margin-left: 2px;
+}
+
+.hh{
+    margin-left: 10px;
+    margin-top: -15px;
+    font-family: $fontSecond;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.18px;
+    color: $textColorSecond;
+}
+.utility{
+    margin-left: 152px;
+    margin-right: 163px;
+}
+

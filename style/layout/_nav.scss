@@ -1,0 +1,63 @@
+// .container{
+    // display: flex;
+// }
+.nav-menu{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .pages{
+        margin-left: 10px;
+    }    
+}
+
+.social-media{
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;    
+    .socM{        
+        background-color: $textColor;
+        border: 2px solid white;
+        display: flex;
+        box-sizing: border-box;
+        border: 2px solid white;
+        align-items: center;        
+    }
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    border: 20px;
+    margin-left: 276px;
+    list-style-type: none;   
+       .link{        
+        .nav-link{   
+            color: $textColorSecond;
+            letter-spacing: 0.17px;
+            text-decoration: none;
+        }
+    }   
+}    
+
+.btn{
+    margin-left: 190px;
+    button{
+        background-color: $btnColor;
+        height: 62px;
+        width: 200px;
+        color: #1B3764; 
+        font-family: $fontSecond;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 28px;
+        letter-spacing: 0.57px;
+    }
+}

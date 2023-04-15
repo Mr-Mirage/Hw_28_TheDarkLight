@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1B3764;
+  color: #ffffff;
+}
+
+.container {
+  margin: 0 auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1440px;
+  }
+}
+@media (max-width: 1600px) and (min-width: 990px) {
+  .container {
+    width: 1100px;
+  }
+}
+@media (max-width: 990px) {
+  .container {
+    width: 770px;
+  }
+}
+@media (max-width: 770px) {
+  .container {
+    width: 570px;
+  }
+}
+@media (max-width: 570px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.nav-menu {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo .pages {
+  margin-left: 10px;
+}
+
+.social-media {
+  display: flex;
+  margin-left: 20px;
+  gap: 10px;
+}
+.social-media .socM {
+  background-color: #ffffff;
+  border: 2px solid white;
+  display: flex;
+  box-sizing: border-box;
+  border: 2px solid white;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  border: 20px;
+  margin-left: 276px;
+  list-style-type: none;
+}
+.links .link .nav-link {
+  color: #B4C7E7;
+  letter-spacing: 0.17px;
+  text-decoration: none;
+}
+
+.btn {
+  margin-left: 190px;
+}
+.btn button {
+  background-color: #FFCA42;
+  height: 62px;
+  width: 200px;
+  color: #1B3764;
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0.57px;
+}
+
+.content {
+  display: grid;
+}
+
+.first-line {
+  display: flex;
+}
+.first-line .line {
+  border: 2px solid #FFCA42;
+  height: 2px;
+  width: 35px;
+  margin-top: 297px;
+}
+.first-line .p1 {
+  margin-top: 280px;
+  margin-left: 14px;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.second-line {
+  margin-top: 10px;
+}
+.second-line .h1-1 {
+  width: 512px;
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 1.3px;
+  color: #ffffff;
+}
+.second-line .p2 {
+  width: 560px;
+  margin-top: 24px;
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #B4C7E7;
+}
+
+.btn2 {
+  margin-top: 42px;
+}
+.btn2 button {
+  background-color: #FFCA42;
+  height: 62px;
+  width: 200px;
+  color: #1B3764;
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0.57px;
+}
+.btn2 .read {
+  font-family: "Cardo";
+  margin-left: 51px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: 0.38px;
+  text-transform: capitalize;
+  color: #B4C7E7;
+}
+
+.three-line {
+  display: flex;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  background: #FFCA42;
+  border-radius: 100px;
+  margin-top: 3px;
+}
+
+.first {
+  display: flex;
+  margin-top: 53px;
+}
+
+.tex {
+  margin-left: 10px;
+}
+
+.second {
+  display: flex;
+  margin-top: 53px;
+  margin-left: 70px;
+}
+.second .tex2 {
+  margin-left: 10px;
+}
+
+.three {
+  display: flex;
+  margin-top: 53px;
+  margin-left: 61px;
+}
+.three .tex3 {
+  margin-left: 10px;
+}
+
+.h3-1 {
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.p3 {
+  margin-top: 12px;
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #B4C7E7;
+}
+
+.picture {
+  margin-left: 550px;
+  margin-top: -700px;
+  width: 592px;
+  height: 800px;
+}
+
+.foot {
+  display: flex;
+  margin-top: 100px;
+}
+
+.logo2 {
+  display: grid;
+}
+.logo2 .pages2 {
+  margin-left: 40px;
+  margin-top: -117px;
+}
+.logo2 .social-media2 {
+  margin-top: -160px;
+}
+
+.explore {
+  margin-left: 70px;
+}
+
+.textes {
+  display: flex;
+  margin-top: 24px;
+}
+
+.dot {
+  background-color: #FFCA42;
+  width: 2px;
+  height: 2px;
+  border-radius: 100px;
+  margin-left: 2px;
+}
+
+.hh {
+  margin-left: 10px;
+  margin-top: -15px;
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.18px;
+  color: #B4C7E7;
+}
+
+.utility {
+  margin-left: 152px;
+  margin-right: 163px;
+}/*# sourceMappingURL=main.css.map */
